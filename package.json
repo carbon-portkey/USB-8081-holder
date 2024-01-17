@@ -1,0 +1,24 @@
+{
+  "name": "usb-8081-holder",
+  "version": "1.0.0",
+  "description": "used for auto run adb reverse tcp:8081 tcp:8081 when Android devices connected",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc ./index.ts && node index.js"
+  },
+  "keywords": [
+    "adb"
+  ],
+  "author": "Carbon-Portkey",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3",
+    "usb": "^2.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/reflect-metadata": "^0.1.0",
+    "reflect-metadata": "^0.2.1"
+  }
+}
